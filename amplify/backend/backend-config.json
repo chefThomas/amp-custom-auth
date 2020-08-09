@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"basicauthb8148b36": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
