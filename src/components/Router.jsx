@@ -1,24 +1,24 @@
-import React, { useState, useEffect } from "react"
-import { HashRouter, Switch, Route } from "react-router-dom"
+import React, { useState, useEffect } from "react";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
-import Profile from "../pages/Profile"
-import Public from "../pages/Public"
-import Protected from "../pages/Protected"
-import Nav from "./Nav"
+import Profile from "../pages/Profile";
+import Public from "../pages/Public";
+import Protected from "../pages/Protected";
+import Nav from "./Nav";
 
 const Router = () => {
-  const [current, setCurrent] = useState("home")
+  const [current, setCurrent] = useState("home");
 
   useEffect(() => {
-    setRoute()
-    window.addEventListener("hashchange", setRoute)
-    return () => window.removeEventListener("hashchange", setRoute)
-  }, [])
+    setRoute();
+    window.addEventListener("hashchange", setRoute);
+    return () => window.removeEventListener("hashchange", setRoute);
+  }, []);
 
   function setRoute() {
-    const location = window.location.href.split("/")
-    const pathname = location[location.length - 1]
-    setCurrent(pathname ? pathname : "home")
+    const location = window.location.href.split("/");
+    const pathname = location[location.length - 1];
+    setCurrent(pathname ? pathname : "home");
   }
 
   return (
@@ -33,7 +33,7 @@ const Router = () => {
         </Switch>
       </HashRouter>
     </div>
-  )
-}
+  );
+};
 
-export default Router
+export default Router;

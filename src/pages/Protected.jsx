@@ -1,18 +1,16 @@
-import React, { useEffect } from "react"
-import { Auth } from "aws-amplify"
-import Container from "../components/Container"
+import React, { useEffect } from "react";
 
+import protectedRoute from "../hooks/protectedRoute";
+
+import Container from "../components/Container";
+import Form from "../components/Form";
 const Protected = (props) => {
-  useEffect(() => {
-    Auth.currentAuthenticatedUser().catch(() => {
-      props.history.push("/profile")
-    })
-  }, [props.history])
   return (
     <Container>
       <h1>Protected</h1>
+      <Form />
     </Container>
-  )
-}
+  );
+};
 
-export default Protected
+export default protectedRoute(Protected);
