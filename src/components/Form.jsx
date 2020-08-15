@@ -8,6 +8,7 @@ import ForgotPassword from "./ForgotPassword";
 import ForgotPasswordSubmit from "./ForgotPasswordSubmit";
 
 // style
+import { toggleForm, anchor } from "../styles/Styles";
 
 const initialFormState = {
   username: "",
@@ -119,7 +120,35 @@ const Form = (props) => {
         return null;
     }
   }
-  return <div>{renderForm()}</div>;
+  return (
+    <div>
+      {renderForm()}
+      {formType === "signUp" && (
+        <p style={toggleForm}>
+          Already have an account?
+          <span style={anchor} onClick={() => setFormType("signIn")}>
+            Sign In
+          </span>
+        </p>
+      )}
+      {formType === "signIn" && (
+        <>
+          <p style={toggleForm}>
+            Need an account?
+            <span style={anchor} onClick={() => setFormType("signUp")}>
+              Sign Up
+            </span>
+          </p>
+          <p style={toggleForm}>
+            Forgot your password?
+            <span style={anchor} onClick={() => setFormType("forgotPassword")}>
+              Reset Password
+            </span>
+          </p>
+        </>
+      )}
+    </div>
+  );
 };
 
 export default Form;
