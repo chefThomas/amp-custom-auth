@@ -1,1 +1,43 @@
-<mxfile modified="2021-03-27T00:46:09.941Z" host="app.diagrams.net" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="9ihJAr_wpQkGC0R3pecm" version="14.4.2" type="github"><diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">7Vhdj+I2FP01PA5K4nzNI2RhO+pWRZ1O+4hMYhJrnJg6zgD762sHJyS2EdNZULWrRUjknjjX9r3nXN8wAUl5+MzgrviNZohMPCc7TMCniee5YeiJH4kcFRJE4ITkDGcKOwPP+CtSoKPQBmeoHg3klBKOd2MwpVWFUj7CIGN0Px62pWQ86w7myACeU0hM9G+c8UKhbvh4vvELwnmhpo696HSjhN1gtZO6gBndDyCwmICEUcpPV+UhQURGr4vL6bnlhbv9whiq+HseyH/9c1myWTxDjxuEovLljyf8EJy8vEHSqA2vmg3BqVxvs6kQV2vnxy4gO4or3gY1mIuvmDNxJoG4k0hr6gUaoNvRGHBNS/oYA7odjQFXd+9q87v6AgeAYY3cO9r8zmCB4gvmtOEEVyjp6ecIMGcwwyItCSWUCayilYjevOAlEZYrLvcF5uh5B1MZ1b3QjsC2tOJKAK7X2Srw0qsg0E5el4dcim0K97U/zRltdu2UT0IC1rvrGqUNw/y4Pg9+5oy+9o5bo1vsxAOeH8euL5eACRngi8clWIQCf0OMYyGSGcG5nJRT6RYqi6Atl27F9nCVf2mtT8BRW7LNk8G6QJlajqKkmAIdLnLd7RUkag+iJeLsKIaoByKgRKfKzkMQK73uByLuBhUD/fYgVIUj752ftSUulLzsUntZfF29zGa/P7HlA67jPEiifx7cwDfE9tcq+Smw719g4nKdEtpka0i4VVDAW0qqjASlFn0rLXVTjLRE4AaROUxf5UKrbDB+2356uRnasijwotxCT5NbGDmG3IBnkRtw3W+Xm/VkA4bYDKVZqTUKX5ebLzKMK1pjjlsObCjntLyavFSEFLExMS0kA1Msx4nTdp1DjvbwaJbeZRAHwL9M/RsUTTGDVjRDM4td3zNMYuTdKYfhB3N4SRoXYqeFWnz8+aMhYzX43vy4VqRgvTttdIsPch3z9rxAbPGGTsfGBZL5U5bVa1zVHFbpjRgTBaHGmABMA4MzUWzhTHwnzkT/C2f64T8YZ1KCWy7cgi2+ozdl3dvhNa6Ed+JKfJ0rKBOvg8qkjBc0pxUkizM6zAOqspl855TZJDR9lRDZtHaX1JYikPFunGKIeHKJSX9G6P1D4AfzUFb/9hTXOmW5xP+akmEb3KWFIQI5fhv7ssVcuVtJEg3Saxwfnt8Vg85LTRuWIvXg8F1V82UeRaYvEcUcccNXS4R+px/nhutdJ8c5G5dazgE5bnFCh5qC/Ciw1FvXt3ZadxJR18ENAvWk2hmBflYNjR46EQSuNUa2ymnpl41CqNfLEmdZq0xbQmwC+racREZOzK7JtfW+3g3eNO0ZeUfv+7OuvbeuhcHt6lr0Dl8frmvCPP+beBp+/lMWLP4F</diagram></mxfile>
+<mxfile modified="2021-03-27T00:47:09.194Z" host="app.diagrams.net" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ZVIcgg179ok2ajNENyN6" version="14.4.2" type="github">
+  <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
+    <mxGraphModel dx="1662" dy="1512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gKTFmrA8Ae9bee7mURIi-5" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="-569" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UEzPUAAOIrF-is8g5C7q-154" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="540" y="-650" width="320" height="311" as="geometry" />
+        </mxCell>
+        <mxCell id="gKTFmrA8Ae9bee7mURIi-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="505" y="-540" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="gKTFmrA8Ae9bee7mURIi-6" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3334B9;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" parent="1" vertex="1">
+          <mxGeometry x="676" y="-533.5" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="gKTFmrA8Ae9bee7mURIi-7" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-542" width="78" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="gKTFmrA8Ae9bee7mURIi-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=none;endFill=1;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="405" y="-504.5" as="sourcePoint" />
+            <mxPoint x="505" y="-504.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gKTFmrA8Ae9bee7mURIi-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="-455.5" width="140" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="gKTFmrA8Ae9bee7mURIi-11" value="Internet Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="490" y="-450" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gKTFmrA8Ae9bee7mURIi-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=none;endFill=1;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="575" y="-504.5" as="sourcePoint" />
+            <mxPoint x="675" y="-504.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
